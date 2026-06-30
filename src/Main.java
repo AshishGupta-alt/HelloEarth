@@ -5,11 +5,11 @@ public class Main {
         int num1 = 0, num2 = 1;
         
         if (num1 <= 100) {
-            System.out.print(num1 + " ");
+            System.out.print(num1 + "--");
         }
         
         while (num2 <= 100) {
-            System.out.print(num2 + " ");
+            System.out.print(num2 + "--");
             int next = num1 + num2;
             num1 = num2;
             num2 = next;
